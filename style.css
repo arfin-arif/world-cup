@@ -77,7 +77,8 @@ p {
 }
 
 .slide-image {
-    width: 581px;
+
+    /* width: 581px; */
 }
 
 .second-section {}
@@ -270,7 +271,7 @@ Media Quary
 
     .tabs {
         background-color: white;
-        padding-left: 100px;
+        padding-left: 10px;
 
     }
 
