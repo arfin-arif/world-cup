@@ -50,8 +50,8 @@ p {
     /* padding-left: 106px; */
     background-color: #161616;
     display: flex;
-    /* grid-template-columns: repeat(2, 1fr); */
     border-radius: 8px;
+    /* grid-template-columns: repeat(2, 1fr); */
     /* align-items: flex-end; */
 }
 
