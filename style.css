@@ -37,7 +37,6 @@ main {
 
 .first-section {
     text-decoration: none;
-    /* width: 1321px; */
 
 }
 
@@ -50,8 +49,8 @@ p {
     /* padding-bottom: 10px; */
     padding-left: 106px;
     background-color: #161616;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
     border-radius: 8px;
 }
 
@@ -76,7 +75,10 @@ p {
     background-color: aliceblue;
 }
 
-.slide-image {}
+.slide-image {
+
+    /* width: 581px; */
+}
 
 .second-section {}
 
@@ -246,13 +248,20 @@ Media Quary
     }
 
     .top-slides {
+        flex-direction: column;
+
         /* width: 100%; */
-        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-columns: repeat(1, 1fr); */
     }
 
     .elements {
 
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .slide-image {
+
+        width: 500px;
     }
 
 
